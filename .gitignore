@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Database
+db.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# admin
+# admin@naver.com
+# 1234
