@@ -19,6 +19,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# admin
-# admin@naver.com
-# 1234
+# Django local settings
+local_settings.py
