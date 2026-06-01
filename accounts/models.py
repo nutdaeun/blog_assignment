@@ -6,3 +6,4 @@ class CustomUser(AbstractUser):
     nickname = models.CharField(max_length=20)
     university = models.CharField(max_length=50)
     location = models.CharField(max_length=50)
+    email = models.EmailField(unique=True)

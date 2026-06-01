@@ -19,9 +19,9 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', include('blog.urls')), 
+    path('blogs/', include('blog.urls')), 
     path('accounts/', include('accounts.urls')),
 ]
 
 # include(): 다른 URLconf를 참조할 때 사용, 
-# blog/로 시작하는 URL이 들어오면 blog 앱의 urls.py 파일을 참조하여 처리하도록 설정
+# blogs/로 시작하는 URL이 들어오면 blog 앱의 urls.py 파일을 참조하여 처리하도록 설정
